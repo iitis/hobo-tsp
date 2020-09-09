@@ -1,0 +1,8 @@
+qaoa_utils - same
+qaoa_optimizers - enough same
+sparse - same
+
+
+
+julia 1.0.0
+Optim 0.21.0
