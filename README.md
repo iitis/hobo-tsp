@@ -36,7 +36,7 @@ julia hamilton_generator.jl hamilton 5
 ```
 
 TSP problem:
-The command will create the directory `hamilton` and generate Hamiltonians for 3, 4, 5 cities. For both HOBO and QUBO it assumes that the first city is visited at the first time-point. Thus for QUBO it requires (N-1)^2 qubits, and for HOBO (N-1)\lceil \log(N)\rceil qubits.
+The command will create the directory `hamilton` and generate Hamiltonians for 3, 4, 5 cities. For both HOBO and QUBO it assumes that the first city is visited at the first time-point. Thus for QUBO it requires (N-1)^2 qubits, and for HOBO (N-1) ceil(\log(N))qubits.
 ```
 julia tsp_generator.jl tsp_3 3 100
 julia tsp_generator.jl tsp_4 4 100
