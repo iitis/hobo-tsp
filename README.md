@@ -1,6 +1,6 @@
 # Space-efficient binary optimization for variational computing
 
-Date: *June 2020*
+Date: *November 2021*
 
 Person responsible for data: *Adam Glos* (aglos [at] iitis.pl).
 
